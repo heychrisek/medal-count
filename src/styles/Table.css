@@ -1,0 +1,72 @@
+.Table {
+  width: 475px;
+}
+
+.Table-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px 5px;
+  border-bottom: 1px solid #999999;
+}
+
+.Table-row.Table-header {
+  padding-top: 8px;
+  border-bottom: 2px solid #999999;
+}
+
+.Table-cell--selected,
+.Table-cellSortable:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  border-top: 2px solid #333333;
+  margin-top: -2px;
+}
+
+.Table-cell {
+  margin-right: 20px;
+  padding-top: 3px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.Table-cellBold {
+  font-weight: bold;
+}
+
+.Table-totalCell {
+  color: #333333;
+  width: 50px;
+}
+
+.Table-flagCell {
+  width: 30px;
+}
+
+.Table-paddingRight {
+  padding-right: 75px;
+}
+
+@media only screen and (max-width: 500px) {
+  .Table {
+    max-width: 225px;
+  }
+  .Table-cell {
+    width: 20px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .Table-index {
+    display: none;
+  }
+  .Table-paddingRight {
+    padding-right: 0;
+  }
+  .Table-totalCell {
+    width: 40px;
+  }
+  .Table-flagCell {
+    width: 30px;
+  }
+}

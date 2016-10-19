@@ -1,0 +1,21 @@
+.MedalCount-header {
+  margin-bottom: 0;
+}
+
+.MedalCount-medal {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+#gold {
+  background: #FFD700;
+}
+
+#silver {
+  background: #C0C0C0;
+}
+
+#bronze {
+  background: #6E3A07;
+}

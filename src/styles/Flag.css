@@ -1,0 +1,60 @@
+.Flag {
+  width: 28px;
+  height: 17px;
+}
+
+#Flag-DNM {
+  background: url(./flags.png) 0 0;
+}
+
+#Flag-USA {
+  background: url(./flags.png) 0 17px;
+}
+
+#Flag-SWE {
+  background: url(./flags.png) 0 34px;
+}
+
+#Flag-SUI {
+  background: url(./flags.png) 0 51px;
+}
+
+#Flag-RUS {
+  background: url(./flags.png) 0 68px;
+}
+
+#Flag-NOR {
+  background: url(./flags.png) 0 85px;
+}
+
+#Flag-NED {
+  background: url(./flags.png) 0 102px;
+}
+
+#Flag-ITA {
+  background: url(./flags.png) 0 119px;
+}
+
+#Flag-GER {
+  background: url(./flags.png) 0 136px;
+}
+
+#Flag-FRA {
+  background: url(./flags.png) 0 153px;
+}
+
+#Flag-CHN {
+  background: url(./flags.png) 0 170px;
+}
+
+#Flag-CAN {
+  background: url(./flags.png) 0 187px;
+}
+
+#Flag-BLR {
+  background: url(./flags.png) 0 204px;
+}
+
+#Flag-AUT {
+  background: url(./flags.png) 0 221px;
+}
