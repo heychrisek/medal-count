@@ -4,11 +4,11 @@ This module shows up to 10 countries that have won the most medals at a given Ol
 
 It is a React component built using Redux for stage management. Each column of the table is sortable (on click of column header), using Ramda.js functions and comparators for sorting (tie breakers, etc.).
 
-Internally, the module accepts parameters for element ID, sort, and medal count data. An Ajax request is made for the data on page load (`componentDidMount`).
+Internally, the module accepts parameters for element ID, sort, and medal count data. An Ajax request is made for the data on page load (`componentDidMount` via Redux action/reducer).
 
 ## Usage
 
-`git clone` this repo, `npm install`, and `npm run start` to serve the component locally.
+`git clone` this repo, `npm install`, and `npm run start` to serve the component locally. `npm run build` to create production build.
 
 ## Functionality
 
