@@ -20,6 +20,10 @@ The table is responsive at a breakpoint of 225px screen size, using an `@media` 
 
 ![responsive.gif](https://s18.postimg.org/jilac197d/responsive.gif)
 
+If the request for data fails (e.g., wifi is turned off), the error is displayed.
+
+[![Screen Shot 2016-10-19 at 5.53.05 PM.png](https://s22.postimg.org/9q2g0z04x/Screen_Shot_2016_10_19_at_5_53_05_PM.png)](https://postimg.org/image/t7x3gwx2l/)
+
 ## Tests
 
 Tests can be run using `npm run test`. Full unit testing of helper/sort methods and initial component testing using Enzyme.
