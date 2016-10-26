@@ -3,7 +3,7 @@ import * as R from 'ramda';
 import '../styles/Table.css';
 import '../styles/Flag.css';
 import '../styles/MedalCount.css';
-import {getTotalMedals} from '../helpers';
+import {getTotalMedals} from '../medal-helpers';
 const mapIndexed = R.addIndex(R.map);
 
 const propSelectedClass = (selected, prop) => {

@@ -1,4 +1,4 @@
-import {getTotalMedals, sortByTotal, sortByGold, sortBySilver, sortByBronze, sortByProp} from '../helpers';
+import {getTotalMedals, sortByTotal, sortByGold, sortBySilver, sortByBronze, sortByProp} from '../medal-helpers';
 import * as testMedalCount from './medal-count-data';
 
 it('places NED before GER when sorting medal counts by gold', () => {

@@ -1,6 +1,6 @@
 import * as types from '../actions/action-types';
 import * as R from 'ramda';
-import {sortByProp} from '../helpers';
+import {sortByProp} from '../medal-helpers';
 
 const initialState = {
   loaded: false,
