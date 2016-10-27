@@ -32,6 +32,26 @@ it('gets the total medal count for a given country', () => {
   expect(total).toEqual(testCountry.gold + testCountry.silver + testCountry.bronze);
 });
 
+it('sortByTotal breaks ties by gold, then silver', () => {
+  const tied = [
+    {
+      "code": "TEST1",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 7
+    },
+    {
+      "code": "TEST2",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 6
+    },
+  ]
+  const sortedByTotal = sortByTotal(tied);
+  expect(sortedByTotal[0].code).toEqual("TEST2");
+  expect(sortedByTotal[1].code).toEqual("TEST1");
+})
+
 it('sorts by a given prop', () => {
   const sortedByPropGold = sortByProp('gold', testMedalCount.default);
   const sortedByGold = sortByGold(testMedalCount.default);
